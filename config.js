@@ -19,11 +19,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285172446692']
-global.ownernomer = "6285172446692"
-global.premium = ['6285172446692']
-global.packname = 'Sticker By'
-global.author = 'Sad-Bot'
+global.owner = ['6283830811051']
+global.ownernomer = "6283830811051"
+global.premium = ['6283830811051']
+global.packname = 'WhatsApp BOT Multidevice'
+global.author = '💝karylbotz💝'
 global.sessionName = 'session'  //jangan diganti bro nanti error
 global.jumlha = '999'
 global.jumhal = '100000000000000'
@@ -59,15 +59,15 @@ global.thumb = fs.readFileSync('./media/image/papah.jpg')
 global.faall = fs.readFileSync('./media/image/menu.jpg')
 
 // Url
-global.mygit = 'https://github.com/FahriAdison'
-global.myyt = 'https://bit.ly/Papah-Chan'
+global.mygit = 'https://github.com/cielv2'
+global.myyt = 'https://bit.ly/ciel-sama'
 global.myytv = ''
-global.mygc = ""
+global.mygc = "https://chat.whatsapp.com/EklKM7VFqfUFnu99kyLIRI"
 
 // Engak Ngaruh, Belum Kepasang
-global.botname = 'SAD BOT'
-global.akulaku = 'Bot By Papah'
-global.ytname = 'YT PAPAH' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
+global.botname = 'karyl'
+global.akulaku = 'ciel-sama'
+global.ytname = 'ciel-sama' //Kalo Ngk Punya Yt Ngak Usah Di Ganti
 
 
 let file = require.resolve(__filename)
