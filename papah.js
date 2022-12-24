@@ -51,7 +51,7 @@ const hariiini = moment.tz('Asia/Jakarta').format('DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Papah\nYoutube :\nhttps://bit.ly/Papah-Chan')  //ubah di config biar ngk emror
+const nyoutube = ('© ciel-sama')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 const ownernya = ownernomer + '@s.whatsapp.net'
 global.prem = require("./lib/premium")
@@ -2635,7 +2635,7 @@ case'gurastick':{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/gura')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made By", author: "Papah-Chan", })
+encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made by", author: "ciel-sama", })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -2644,7 +2644,7 @@ case'dogestick':{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/anjing')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made By", author: "Papah-Chan", })
+encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made by", author: "ciel-sama", })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -2653,7 +2653,7 @@ case'bucinp' :{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/bucin')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made By", author: "Papah-Chan", })
+encmedia = await papah.sendImageAsSticker(m.chat, wifegerakx, m, { packname: "Made By", author: "ciel-sama", })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -4067,7 +4067,7 @@ let kominfo = `628119224545@s.whatsapp.net`
 let alfamart = `628111500959@s.whatsapp.net`
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*Bot by Papah-Chan* 
+            let jawab = `*Bot by ciel-sama* 
 -Creator :  @${ownernya.split('@')[0]}\n-Lu : @${me.split('@')[0]}\n-Powered  : @${ini_mark.split('@')[0]}\n- :  @${qontak.split('@')[0]}\n- :  @${dana.split('@')[0]}\n- :  @${shopeeotp.split('@')[0]}\n- :  @${shopee.split('@')[0]}\n- :  @${tokopedia.split('@')[0]}\n- :  @${smartfrend.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${facebook.split('@')[0]}\n- :  @${pasarpolis.split('@')[0]}\n- :  @${getcontact.split('@')[0]}\n- :  @${kominfo.split('@')[0]}\n- :  @${alfamart.split('@')[0]}`
             let ments = [ownernya, me, ini_mark, qontak, dana, shopeeotp, shopee, tokopedia, smartfrend, getcontact, facebook, pasarpolis, kominfo, alfamart]
             let buttons = [
@@ -4592,11 +4592,11 @@ _*🇯🇵 : このボットの機能のリスト*_.
 
 *[   INFORMATION   ]*
 _⫹⫺ Your Name : ${m.pushName}_
-_⫹⫺ Bot Name : Sad-Bot_
+_⫹⫺ Bot Name : karyl-chan_
 _⫹⫺ Library : Baileys-Md_
 _⫹⫺ Version : 4.0.4_
 _⫹⫺ Language : Javascript_
-_⫹⫺ Recoder : 𝙋𝙖𝙥𝙖𝙝-𝘾𝙝𝙖𝙣_
+_⫹⫺ Owner : ciel-sama_
 _⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
 _⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_                
 _⫹⫺ Bot Mode : Public Mode_
