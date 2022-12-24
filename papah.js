@@ -1002,7 +1002,7 @@ break
             }
             break
             case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                papah.sendMessage(m.chat, { image: fs.readFileSync('./media/image/papah.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/papah_\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n Ke nomer berikut : 0895612153565\n\n_Terima kasih_` }, { quoted: m })
+                papah.sendMessage(m.chat, { image: fs.readFileSync('./media/image/papah.jpg'), caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi untuk bot langsung saja wa owner dengan ketik .owner*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://wa.me/6283830811051_\n\n_Terima kasih_` }, { quoted: m })
             }
             break
             case 'sc': {
@@ -1023,7 +1023,7 @@ break
   buttons: buttons,
   headerType: 4,
   contextInfo:{externalAdReply:{
-  title: 'Sad-Bot',
+  title: 'karyl',
   body: 'Subscribe My YouTube', 
   showAdAttribution: true,
   thumbnail: thumb,
@@ -2519,7 +2519,7 @@ case 'test':
 ]
 const pahh = {
 text: `Total Hit : ${totalhit}\nHit Today : ${totalhittd}`,
-footer: `© Sad-Bot`,
+footer: `© karyl`,
 buttons: buttons5,
 headerType: 1
 }
@@ -2539,7 +2539,7 @@ let buttonMessage = {
     caption: `*「 GIMAGE SEARCH 」*
  *Query* : ${text}
  *Media Url* : ${images}`,
-    footer: ` © Sad-Bot`,
+    footer: ` © karyl`,
     buttons: buttons,
     headerType: 4
 }
@@ -3413,7 +3413,7 @@ require('./lib/tiktok').Tiktok(q).then( data => {
         {buttonId: `tiktoknowm ${q}`, buttonText: {displayText: '► No Watermark'}, type: 1},
         {buttonId: `tiktokmp3 ${q}`, buttonText: {displayText: '♫ Audio'}, type: 1}
     ]
-papah.sendMessage(m.chat, { caption: 'Kamu bisa mengubahnya menjadi Vidio Tanpa Watermark atau Audio, pencet tombol dibawah untuk mengubahnya!', video: { url: data.watermark }, buttons: buttons, footer: `© Sad-Bot`, mentions: [sender] })
+papah.sendMessage(m.chat, { caption: 'Kamu bisa mengubahnya menjadi Vidio Tanpa Watermark atau Audio, pencet tombol dibawah untuk mengubahnya!', video: { url: data.watermark }, buttons: buttons, footer: `© karyl`, mentions: [sender] })
 })
 }
 break
@@ -4036,7 +4036,7 @@ let capt = `⭔ Title: ${judul}
             case 'rules': {
 rules = `*Rules BOT*
 
-Sad-Bot merupakan sebuah Robot WhatsApp yang diprogram untuk melakukan perintah tertentu secara otomatis.
+karyl merupakan sebuah Robot WhatsApp yang diprogram untuk melakukan perintah tertentu secara otomatis.
 Setiap respon atau balasan yang dilakukan oleh bot bukan dari Manusia.
 
 Dengan memakai bot ini maka kamu *setuju* dengan syarat dan kondisi sbg berikut:
